@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/banner-cyber.svg" alt="Pink Panther cyberbank banner" />
+  <img src="assets/banner-cyber.gif" alt="Pink Panther cyberbank banner" />
 </p>
 
 <div align="center">
-  <img src="assets/panther-id.svg" alt="Pink Panther ID" />
+  <img src="assets/panther-id.gif" alt="Pink Panther ID" />
 </div>
 
 <h1 align="center">PINK PANTHER // CYBERBANK</h1>
@@ -17,7 +17,7 @@ STATUS: ONLINE
 ```
 
 <div align="center">
-  <img src="assets/ops-console.svg" alt="Ops console" />
+  <img src="assets/ops-console.gif" alt="Ops console" />
 </div>
 
 ## Selected ops
