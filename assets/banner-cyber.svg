@@ -1,0 +1,84 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07040d"/>
+      <stop offset="1" stop-color="#1b0033"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="0.7" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#2b004a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0a0614" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#271236" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="1" fill="#0f0a1a" opacity="0.6"/>
+    </pattern>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff46d6"/>
+      <stop offset="1" stop-color="#5bf2ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#pulse)"/>
+  <rect width="1200" height="380" fill="url(#grid)" opacity="0.65"/>
+  <rect width="1200" height="380" fill="url(#scan)" opacity="0.3"/>
+
+  <!-- diagonal beams -->
+  <path d="M0 310 L1200 250" stroke="#20122e" stroke-width="2" opacity="0.7"/>
+  <path d="M0 340 L1200 280" stroke="#15202e" stroke-width="2" opacity="0.5"/>
+
+  <!-- HUD top-left -->
+  <g opacity="0.9">
+    <path d="M60 48 H360" stroke="#ff46d6" stroke-width="2" filter="url(#soft)"/>
+    <path d="M60 56 H280" stroke="#5bf2ff" stroke-width="1"/>
+    <path d="M60 64 H220" stroke="#5bf2ff" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- Glitch text layers -->
+  <text x="70" y="165" font-family="Segoe UI, Arial Black, sans-serif" font-size="58" letter-spacing="4" fill="#ff46d6" opacity="0.5">PINK PANTHER</text>
+  <text x="76" y="160" font-family="Segoe UI, Arial Black, sans-serif" font-size="58" letter-spacing="4" fill="#5bf2ff" opacity="0.5">PINK PANTHER</text>
+  <text x="72" y="163" font-family="Segoe UI, Arial Black, sans-serif" font-size="58" letter-spacing="4" fill="url(#neon)" filter="url(#glow)">PINK PANTHER</text>
+
+  <text x="72" y="205" font-family="Consolas, Courier New, monospace" font-size="16" letter-spacing="3" fill="#d8d0ff" opacity="0.85">VIBE CODER // CYBERBANK OPS // AUTOMATION</text>
+  <text x="72" y="230" font-family="Consolas, Courier New, monospace" font-size="12" letter-spacing="2" fill="#9aa3ff" opacity="0.85">MUZZYEXTRE  |  KEMEROVO, RU  |  SYSTEM ONLINE</text>
+
+  <!-- Cyber card -->
+  <g transform="translate(740 60)">
+    <rect x="0" y="0" width="420" height="170" rx="16" ry="16" fill="#0c0a18" stroke="url(#neon)" stroke-width="2"/>
+    <rect x="10" y="10" width="400" height="150" rx="12" ry="12" fill="#0f0d1f" opacity="0.6"/>
+    <text x="26" y="44" font-family="Consolas, monospace" font-size="12" fill="#5bf2ff">ACCESS CARD</text>
+    <text x="26" y="70" font-family="Consolas, monospace" font-size="14" fill="#ff46d6">PANTHER-01</text>
+    <text x="26" y="96" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">ROLE: VIBE CODER</text>
+    <text x="26" y="120" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">CLEARANCE: CYBERBANK</text>
+    <text x="26" y="144" font-family="Consolas, monospace" font-size="12" fill="#5bf2ff">STATUS: ONLINE</text>
+
+    <g transform="translate(300 35)">
+      <path d="M20 0 L60 6 L80 32 L70 70 L45 86 L5 70 L-10 32 L5 6 Z" fill="none" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="18" cy="40" r="4" fill="#ff46d6"/>
+      <circle cx="52" cy="40" r="4" fill="#5bf2ff"/>
+      <path d="M20 58 Q35 70 50 58" fill="none" stroke="#f0e6ff" stroke-width="2" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- corner tag -->
+  <g opacity="0.85">
+    <rect x="980" y="300" width="180" height="46" rx="6" ry="6" fill="#0c0a18" stroke="#ff46d6"/>
+    <text x="995" y="328" font-family="Consolas, monospace" font-size="12" fill="#ff46d6">ACCESS: PANTHER</text>
+  </g>
+</svg>

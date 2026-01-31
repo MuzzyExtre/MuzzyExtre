@@ -1,0 +1,54 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff46d6"/>
+      <stop offset="1" stop-color="#5bf2ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" rx="18" ry="18" fill="#0d0a1a"/>
+  <rect x="8" y="8" width="984" height="344" rx="16" ry="16" fill="none" stroke="url(#edge)" stroke-width="2" filter="url(#glow)"/>
+
+  <text x="30" y="42" font-family="Consolas, monospace" font-size="14" fill="#5bf2ff">OPS CONSOLE</text>
+
+  <!-- columns -->
+  <g transform="translate(30 70)">
+    <rect width="300" height="250" rx="12" ry="12" fill="#120f22" stroke="#2a1742"/>
+    <text x="18" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ff46d6">BOTS</text>
+    <text x="18" y="70" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Telegram bots under tasks</text>
+    <text x="18" y="92" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Admin panels, payments</text>
+    <text x="18" y="114" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Integrations and flows</text>
+    <text x="18" y="136" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Clean UX inside chats</text>
+    <rect x="18" y="170" width="120" height="26" rx="6" ry="6" fill="#0b0916" stroke="#ff46d6"/>
+    <text x="28" y="188" font-family="Consolas, monospace" font-size="11" fill="#ff46d6">MODULE: BOT</text>
+  </g>
+
+  <g transform="translate(350 70)">
+    <rect width="300" height="250" rx="12" ry="12" fill="#120f22" stroke="#2a1742"/>
+    <text x="18" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5bf2ff">AUTOMATION</text>
+    <text x="18" y="70" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- AI-assisted workflows</text>
+    <text x="18" y="92" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Scrapers and monitors</text>
+    <text x="18" y="114" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- No-code to code bridge</text>
+    <text x="18" y="136" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Metrics and reports</text>
+    <rect x="18" y="170" width="160" height="26" rx="6" ry="6" fill="#0b0916" stroke="#5bf2ff"/>
+    <text x="28" y="188" font-family="Consolas, monospace" font-size="11" fill="#5bf2ff">MODULE: AUTO</text>
+  </g>
+
+  <g transform="translate(670 70)">
+    <rect width="300" height="250" rx="12" ry="12" fill="#120f22" stroke="#2a1742"/>
+    <text x="18" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ff46d6">INFRA</text>
+    <text x="18" y="70" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- VPN and OpenWrt</text>
+    <text x="18" y="92" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Server setup and hardening</text>
+    <text x="18" y="114" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Docker, Linux, deployment</text>
+    <text x="18" y="136" font-family="Consolas, monospace" font-size="12" fill="#d8d0ff">- Fast incident response</text>
+    <rect x="18" y="170" width="160" height="26" rx="6" ry="6" fill="#0b0916" stroke="#ff46d6"/>
+    <text x="28" y="188" font-family="Consolas, monospace" font-size="11" fill="#ff46d6">MODULE: INFRA</text>
+  </g>
+</svg>
