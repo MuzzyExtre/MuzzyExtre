@@ -1,24 +1,9 @@
 <p align="center">
-  <img src="assets/banner-overdrive.gif" alt="Pink Panther cyberbank banner" />
+  <img src="assets/banner-glitch.gif" alt="Pink Panther glitch banner" />
 </p>
 
-<div align="center">
-  <img src="assets/panther-id-overdrive.gif" alt="Pink Panther ID" />
-</div>
-
-<h1 align="center">PINK PANTHER // CYBERBANK</h1>
-<p align="center"><b>VIBE CODER</b> / AUTOMATION / BOTS / INFRA</p>
-
-```
-ACCESS: GRANTED
-PROFILE: PINK PANTHER
-MODE: CYBERBANK
-STATUS: ONLINE
-```
-
-<div align="center">
-  <img src="assets/ops-console-overdrive.gif" alt="Ops console" />
-</div>
+<h1 align="center">PINK PANTHER</h1>
+<p align="center"><b>VIBE CODER</b> / CYBERBANK OPS</p>
 
 ## Selected ops
 - [Telegram_BOT](https://github.com/MuzzyExtre/Telegram_BOT) - Telegram automation base
@@ -30,13 +15,9 @@ STATUS: ONLINE
 ```
 OPS: BOT / AUTOMATION / INFRA
 STACK: PYTHON / LINUX / DOCKER
-FOCUS: FAST DELIVERY, CLEAN UX
 ```
 
 ## Signals
 - Profi: https://profi.ru/profile/SerikovSO
 - YouDo: https://youdo.com/u12936447
 - Avito: https://www.avito.ru/brands/9ebc055f0b1d378a1df67e539151a194
-
-## DM
-- Write on any platform above
