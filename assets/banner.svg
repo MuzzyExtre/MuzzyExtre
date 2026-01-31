@@ -1,0 +1,71 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0612"/>
+      <stop offset="1" stop-color="#12001e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#7df9ff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a143b" stroke-width="1" opacity="0.45"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Accent beams -->
+  <path d="M0 260 L1200 220" stroke="#2c0f3b" stroke-width="2" opacity="0.6"/>
+  <path d="M0 290 L1200 250" stroke="#1c2a3b" stroke-width="2" opacity="0.6"/>
+  <path d="M0 70 L1200 30" stroke="#1b0b2a" stroke-width="1" opacity="0.5"/>
+
+  <!-- HUD lines -->
+  <g opacity="0.8">
+    <path d="M60 40 H320" stroke="#ff4fd8" stroke-width="2" filter="url(#soft)"/>
+    <path d="M60 48 H250" stroke="#7df9ff" stroke-width="1" filter="url(#soft)"/>
+    <path d="M60 56 H210" stroke="#7df9ff" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- Title -->
+  <text x="70" y="150" font-family="Verdana, Arial, sans-serif" font-size="54" letter-spacing="3" fill="url(#neon)" filter="url(#glow)">
+    PINK PANTHER
+  </text>
+  <text x="70" y="188" font-family="Verdana, Arial, sans-serif" font-size="22" letter-spacing="4" fill="#f0e6ff" opacity="0.85">
+    VIBE CODER  //  CYBERBANK OPS  //  AUTOMATION
+  </text>
+  <text x="70" y="220" font-family="Courier New, monospace" font-size="14" fill="#9aa3ff" opacity="0.8">
+    MUZZYEXTRE  |  KEMEROVO, RU  |  SYSTEM ONLINE
+  </text>
+
+  <!-- Panther mark -->
+  <g transform="translate(920 55)">
+    <path d="M60 0 L120 10 L150 55 L140 110 L95 135 L25 110 L10 55 L35 10 Z" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+    <path d="M50 18 L70 6 L60 32 Z" fill="#ff4fd8" opacity="0.7"/>
+    <path d="M110 18 L90 6 L100 32 Z" fill="#7df9ff" opacity="0.7"/>
+    <circle cx="55" cy="60" r="6" fill="#ff4fd8"/>
+    <circle cx="105" cy="60" r="6" fill="#7df9ff"/>
+    <path d="M60 90 Q80 105 100 90" fill="none" stroke="#f0e6ff" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Corner label -->
+  <g opacity="0.7">
+    <rect x="980" y="255" width="180" height="38" rx="6" ry="6" fill="#0c0a18" stroke="#ff4fd8"/>
+    <text x="995" y="280" font-family="Courier New, monospace" font-size="12" fill="#ff4fd8">ACCESS: PANTHER</text>
+  </g>
+</svg>
