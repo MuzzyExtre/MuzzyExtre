@@ -92,19 +92,19 @@ currently: Building AI-powered solutions & custom bots
 <div align="center">
 
 <a href="https://github.com/MuzzyExtre/Telegram_BOT">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=MuzzyExtre&repo=Telegram_BOT&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
+  <img width="47%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MuzzyExtre&repo=Telegram_BOT&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
 </a>
 &nbsp;
 <a href="https://github.com/MuzzyExtre/AI_prodavala">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=MuzzyExtre&repo=AI_prodavala&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
+  <img width="47%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MuzzyExtre&repo=AI_prodavala&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
 </a>
 
 <a href="https://github.com/MuzzyExtre/call-agent-local">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=MuzzyExtre&repo=call-agent-local&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
+  <img width="47%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MuzzyExtre&repo=call-agent-local&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
 </a>
 &nbsp;
 <a href="https://github.com/MuzzyExtre/Smotrim-down-to-mp3">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=MuzzyExtre&repo=Smotrim-down-to-mp3&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
+  <img width="47%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MuzzyExtre&repo=Smotrim-down-to-mp3&hide_border=true&bg_color=0D1117&title_color=93C5FD&text_color=67E8F9&icon_color=A78BFA" />
 </a>
 
 </div>
@@ -120,14 +120,14 @@ currently: Building AI-powered solutions & custom bots
 <br>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=MuzzyExtre&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=67E8F9&icon_color=93C5FD&ring_color=A78BFA&count_private=true&include_all_commits=true&custom_title=Pink+Panther+Stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=MuzzyExtre&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=67E8F9&icon_color=93C5FD&ring_color=A78BFA&count_private=true&include_all_commits=true&custom_title=Pink+Panther+Stats" />
   <img width="49%" src="https://streak-stats.demolab.com?user=MuzzyExtre&hide_border=true&background=0D1117&ring=A78BFA&fire=93C5FD&currStreakNum=67E8F9&sideNums=67E8F9&currStreakLabel=A78BFA&sideLabels=93C5FD&dates=555555" />
 </div>
 
 <br>
 
 <div align="center">
-  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuzzyExtre&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=67E8F9&langs_count=8" />
+  <img width="38%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MuzzyExtre&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=67E8F9&langs_count=8" />
 </div>
 
 ---
@@ -158,7 +158,7 @@ currently: Building AI-powered solutions & custom bots
 
 <div align="center">
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=MuzzyExtre&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15)
+![Trophy](https://github-trophies.vercel.app/?username=MuzzyExtre&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=15)
 
 </div>
 
